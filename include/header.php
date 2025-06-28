@@ -26,7 +26,7 @@ $currentPage = $activePage;
                     <div class="full">
                         <div class="center-desk">
                             <div class="logo">
-                                <a href="index.html"><img src="assets/images/logo/logo.png" alt="#" /></a>
+                                <a href="app.php?page=home"><img src="assets/images/logo/logo.png" alt="#" /></a>
                             </div>
                         </div>
                     </div>
