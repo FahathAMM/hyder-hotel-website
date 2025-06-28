@@ -47,6 +47,9 @@ $currentPage = $activePage;
 
 ?>
 
+<?php include "include/whatsapp.php"; ?>
+
+
 <footer>
     <div class="footer">
         <div class="container">

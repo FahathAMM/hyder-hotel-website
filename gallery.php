@@ -22,15 +22,17 @@
      </div>
  </div>
 
+ <script src="assets/js/jquery.min.js"></script>
+
  <script src="assets/lib/lc/js/lc_lightbox.lite.js"></script>
  <link rel="stylesheet" href="assets/lib/lc/css/lc_lightbox.css">
  <link rel="stylesheet" href="assets/lib/lc/skins/minimal.css">
 
- <script src="lib/lc/lib/AlloyFinger/alloy_finger.min.js"></script>
+ <script src="assets/lib/lc/lib/AlloyFinger/alloy_finger.min.js"></script>
 
  <script>
      $('document').ready(function() {
-         //  console.log('ready');
+         console.log('ready');
 
          var $obj = lc_lightbox('#lcl_elems_wrapper a');
 
@@ -46,9 +48,9 @@
 
                      images.forEach(imagePath => {
                          const imageElement = document.createElement('a');
-                         imageElement.href = `img/gallery/${imagePath}`;
+                         imageElement.href = `assets/images/gallery/${imagePath}`;
                          const img = document.createElement('img');
-                         img.src = `img/gallery/${imagePath}`;
+                         img.src = `assets/images/gallery/${imagePath}`;
                          img.style.width = '50px';
                          img.style.margin = '10px';
                          imageElement.appendChild(img);

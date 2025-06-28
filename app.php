@@ -13,6 +13,8 @@
     <title>Hyders Mahal & Hotel</title>
 
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -30,6 +32,8 @@
     <?php include "include/header.php"; ?>
     <!-- end header -->
 
+    <?php include "include/foot.php"; ?>
+
     <?php
     $pageName = $_GET['page'];
     require "pages/$pageName.php";
@@ -43,7 +47,6 @@
 
 
 
-    <?php include "include/foot.php"; ?>
 
 </body>
 

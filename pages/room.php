@@ -3,21 +3,20 @@
         [
             'image' => 'assets/images/roomtype/type1.jpeg',
             'title' => 'Royal Suite',
-            'description' => 'Spacious and ideal for 4 adults. Features centralized air conditioning, 24-hour hot water, high-speed Wi-Fi, toiletries, fresh towels, a wardrobe with hangers, a study table, a Smart Google TV, and an electric kettle.'
+            'description' => 'Spacious and ideal for 4 adults. Features centralized air conditioning, 24-hour hot water, high-speed Wi-Fi, toiletries, fresh towels, a wardrobe with hangers, and an electric kettle.',
         ],
         [
             'image' => 'assets/images/roomtype/type2.jpeg',
             'title' => 'Superior Royal King',
-            'description' => 'Perfect for 2 adults. Includes centralized air conditioning, 24-hour hot water, high-speed Wi-Fi, toiletries, fresh towels, a wardrobe with hangers, a study table, a Smart Google TV, and an electric kettle.'
+            'description' => 'Perfect for 2 adults. Includes centralized air conditioning, 24-hour hot water, high-speed Wi-Fi, toiletries, fresh towels, a wardrobe with hangers, a study table, and an electric kettle.'
         ],
         [
-            'image' => 'assets/images/roomtype/type2.jpeg',
+            'image' => 'assets/images/roomtype/type3.jpeg',
             'title' => 'Wedding Hall',
             'description' => 'A spacious and elegant hall ideal for weddings and special events. Fully air-conditioned with decorative lighting, premium seating, stage area, sound system, and ample parking facilities.'
         ],
     ];
     ?>
-
 
   <div class="back_re title-area">
       <div class="container">
@@ -51,6 +50,7 @@
                           <div class="bed_room">
                               <h3><?= $room['title'] ?></h3>
                               <p><?= $room['description'] ?></p>
+                              <a target="/blank" href="assets/doc/profile.pdf" class="read_more">View More..</a>
                           </div>
                       </div>
                   </div>

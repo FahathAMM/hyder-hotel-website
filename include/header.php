@@ -7,6 +7,7 @@ $menuItems = [
     ['title' => 'Home', 'href' => 'home'],
     ['title' => 'About', 'href' => 'about'],
     ['title' => 'Our room', 'href' => 'room'],
+    ['title' => 'Marriage Hall', 'href' => 'hall'],
     ['title' => 'Gallery', 'href' => 'gallery'],
     ['title' => 'Blog', 'href' => 'blog'],
     ['title' => 'Contact Us', 'href' => 'contact'],
@@ -25,7 +26,7 @@ $currentPage = $activePage;
                     <div class="full">
                         <div class="center-desk">
                             <div class="logo">
-                                <a href="index.html"><img src="images/logo.png" alt="#" /></a>
+                                <a href="index.html"><img src="assets/images/logo/logo.png" alt="#" /></a>
                             </div>
                         </div>
                     </div>

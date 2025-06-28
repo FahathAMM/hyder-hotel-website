@@ -1,2 +1,6 @@
 .env
 assets/images/about/about_vid.mp4
+assets/images/gallery/*.jpeg
+assets/images/gallery/*.png
+
+# assets/images/gallery/*

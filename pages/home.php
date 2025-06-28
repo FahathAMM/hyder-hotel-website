@@ -44,6 +44,8 @@
 
     include "pages/about.php";
     include "pages/room.php";
+    // include "pages/blog.php";
+    include "pages/contact.php";
 
     ?>
 </div>
@@ -62,7 +64,7 @@
         width: 100%;
         height: auto;
         object-fit: cover;
-        max-height: 500px;
+        max-height: 600px;
         /* Adjust based on your design */
     }
 </style>
