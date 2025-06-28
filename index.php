@@ -1,2 +1,2 @@
 <?php
-header('location: app.php?page=importvista');
+header('location: app.php?page=home');
