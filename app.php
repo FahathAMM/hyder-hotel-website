@@ -35,7 +35,7 @@
     <?php include "include/foot.php"; ?>
 
     <?php
-    $pageName = $_GET['page'];
+    $pageName = $_GET['page'] ?? 'home';
     require "pages/$pageName.php";
     ?>
 
