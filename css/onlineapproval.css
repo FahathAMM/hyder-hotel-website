@@ -1,0 +1,140 @@
+
+.container-table100{
+	background: #ffffff!important;
+}
+.wrap-table100{
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+}
+table thead tr{
+
+background-color: #0072C6;
+border-style: Solid!important;
+border-color:gray!important;
+}
+table{
+	border-radius: 0px;
+}
+.table100-head th{
+	color: #ffffff!important;
+	border-color: gray;
+	
+	font-size: 14px !important;
+}
+tbody tr:nth-child(2n) {
+    background-color: #E6E6FA;
+	color: #000000!important;
+	font-size: 14px !important;
+	
+}
+tbody tr:nth-child(1n) {
+    
+	color: #000000!important;
+	font-size: 14px !important;
+}
+td,tr{
+	border-color:gray;
+}
+body {
+    font-family: Verdana, Tahoma, Arial;
+}
+
+.myButton {
+	-moz-box-shadow: 0px 10px 14px -7px #276873;
+	-webkit-box-shadow: 0px 10px 14px -7px #276873;
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #599bb3), color-stop(1, #408c99));
+	background:-moz-linear-gradient(top, #599bb3 5%, #408c99 100%);
+	background:-webkit-linear-gradient(top, #599bb3 5%, #408c99 100%);
+	background:-o-linear-gradient(top, #599bb3 5%, #408c99 100%);
+	background:-ms-linear-gradient(top, #599bb3 5%, #408c99 100%);
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#599bb3', endColorstr='#408c99',GradientType=0);
+	background-color:#599bb3;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	padding:4px 4px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #408c99), color-stop(1, #599bb3));
+	background:-moz-linear-gradient(top, #408c99 5%, #599bb3 100%);
+	background:-webkit-linear-gradient(top, #408c99 5%, #599bb3 100%);
+	background:-o-linear-gradient(top, #408c99 5%, #599bb3 100%);
+	background:-ms-linear-gradient(top, #408c99 5%, #599bb3 100%);
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#408c99', endColorstr='#599bb3',GradientType=0);
+	background-color:#408c99;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.column8,.column14 {
+    width: 130px;
+  } 
+  .column3, .column2{
+    width: 145px;
+}
+  .column4 {
+    width: 200px;
+}
+  table td {
+			padding-left: 3px;
+			padding: calc;
+			padding-right: 3px;
+			padding-top: 0px;
+			padding-bottom: 3px;
+		}
+  @media screen and (min-width: 800px) {
+			table td {
+			padding-left: 3px;
+			padding: calc;
+			padding-right: 3px;
+			padding-top: 3px;
+			padding-bottom: 3px;
+		}
+	}
+	.btn-o,#u_0_1,.pp_social{display:none;}
+	
+	
+#ui-datepicker-div{
+	height: 206px !important;
+width: 210px;
+left: 1127px !important;
+}
+.ui-datepicker table {
+    font-size: 11px!important;
+    
+}
+.ui-widget {
+    
+    font-size: 12px!important;
+}
+#ui-datepicker-div table tbody tr {
+    height: 21px;
+}
+.form-group{
+	font-size: 13px!important;
+}
+.form-control{
+	padding: 6px!important;
+	font-size: 13px;
+	width: 51% !important;
+}
+#onlineapproval,#approved,#rejected,#export{
+	float: right;
+}
+.container-table100{
+	padding: 0px 0px;
+}
+.wrap-table100{
+	margin-top: 10px;
+}
